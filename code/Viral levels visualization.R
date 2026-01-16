@@ -27,3 +27,5 @@ geom_bar(stat="Identity", position=position_dodge()) +
   geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2,
                 position=position_dodge(.9)) +
   ggtitle("DWV")
+
+test
